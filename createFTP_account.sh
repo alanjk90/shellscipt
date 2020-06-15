@@ -35,3 +35,11 @@ Match User $username
   AllowTcpForwarding no
   ChrootDirectory /ftpstorage/$username
   ForceCommand internal-sftp
+
+
+End-of-message
+
+
+
+service ssh restart
+/etc/init.d/ssh restart
